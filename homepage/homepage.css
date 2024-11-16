@@ -1,0 +1,26 @@
+.hpimg {
+    max-width: 99%;
+    max-height: 99%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+
+}
+
+::-webkit-scrollbar-track {
+    background: #fccd2a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #fccd2a, #1e201e);
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 80%;
+}
