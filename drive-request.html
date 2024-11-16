@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackathon</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Request a Ride</h1>
+    <form id="drive-request" title="Drive Request" novalidate>
+        <h2>Drive Request Form</h2>
+        
+        <!-- Name -->
+        <div class="form-group" id="form-name">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name" aria-label="Name">
+        </div>
+
+        <!-- Date and Time -->
+        <div class="form-group" id="form-date-time">
+            <label>Date and Time:</label>
+            <div class="date-time-group">
+                <input type="date" id="date" name="date" required aria-label="Date">
+                <input type="time" id="time" name="time" required aria-label="Time">
+            </div>
+        </div>
+
+        <!-- Email -->
+        <div class="form-group" id="form-email">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email" aria-label="Email">
+        </div>
+
+        <!-- Pick-up Location -->
+        <div class="form-group" id="form-pickup">
+            <label for="pickup">Pick-up Location:</label>
+            <select id="pickup" name="pickup" required aria-label="Pick-up Location">
+                <option value="" disabled selected>Select a pick-up location</option>
+                <option value="UB">Union Building</option>
+                <option value="Roy">Roy O' West</option>
+                <option value="CDI">CDI</option>
+                <option value="BR">Bishop Roberts</option>
+                <option value="Lucy">Lucy Hall</option>
+                <option value="Bowling">3G Bowling Alley</option>
+                <option value="Rector">Rector Village</option>
+                <option value="Bloomington">Bloomington Street Hall</option>
+                <option value="Walmart">Walmart</option>
+                <option value="Kroger">Kroger</option>
+                <option value="CVS">CVS</option>
+                <option value="Goodwill">Goodwill Thriftstore</option>
+                <option value="Greenwood">Greenwood Mall</option>
+                <option value="Airport">Indianapolis Airport</option>
+                <option value="Greyhound">Indianapolis Greyhound</option>
+                <option value="Indianapolis1">Indianapolis Center (Mass Ave)</option>
+                <option value="Indianapolis2">Indianapolis Center (Circle Centre)</option>
+            </select>
+        </div>
+
+        <!-- Drop-off Location -->
+        <div class="form-group" id="form-dropoff">
+            <label for="dropoff">Drop-off Location:</label>
+            <select id="dropoff" name="dropoff" required aria-label="Drop-off Location">
+                <option value="" disabled selected>Select a drop-off location</option>
+                <!-- Same options as Pick-up Location -->
+                <option value="UB">Union Building</option>
+                <option value="Roy">Roy O' West</option>
+                <option value="CDI">CDI</option>
+                <option value="BR">Bishop Roberts</option>
+                <option value="Lucy">Lucy Hall</option>
+                <option value="Bowling">3G Bowling Alley</option>
+                <option value="Rector">Rector Village</option>
+                <option value="Bloomington">Bloomington Street Hall</option>
+                <option value="Walmart">Walmart</option>
+                <option value="Kroger">Kroger</option>
+                <option value="CVS">CVS</option>
+                <option value="Goodwill">Goodwill Thriftstore</option>
+                <option value="Greenwood">Greenwood Mall</option>
+                <option value="Airport">Indianapolis Airport</option>
+                <option value="Greyhound">Indianapolis Greyhound</option>
+                <option value="Indianapolis1">Indianapolis Center (Mass Ave)</option>
+                <option value="Indianapolis2">Indianapolis Center (Circle Centre)</option>
+            </select>
+        </div>
+
+        <!-- Phone -->
+        <div class="form-group" id="form-phone">
+            <label for="phone">Contact Number:</label>
+            <input type="tel" id="phone" name="phone" required placeholder="Enter your contact number" pattern="[0-9]{10}" aria-label="Phone Number">
+        </div>
+
+        <!-- Number of Passengers -->
+        <div class="form-group" id="form-passengers">
+            <label>Number of Passengers:</label>
+            <div class="radio-group">
+                <div class="radio-item">
+                    <input type="radio" name="numpassenger" id="Radio1" value="1" required>
+                    <label for="Radio1">1</label>
+                </div>
+                <div class="radio-item">
+                    <input type="radio" name="numpassenger" id="Radio2" value="2">
+                    <label for="Radio2">2</label>
+                </div>
+                <div class="radio-item">
+                    <input type="radio" name="numpassenger" id="Radio3" value="3">
+                    <label for="Radio3">3</label>
+                </div>
+            </div>
+        </div>
+
+        <!-- Note -->
+        <div class="form-group" id="form-note">
+            <label for="note">Note:</label>
+            <textarea id="note" name="note" placeholder="Add any additional information"></textarea>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" id="form-submit">Submit</button>
+    </form>
+</body>
+</html>
