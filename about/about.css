@@ -1,0 +1,111 @@
+/* styles.css */
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Light background */
+    text-align: center;
+}
+
+/* About Section */
+.about-section {
+    padding: 20px;
+}
+
+.heading {
+    background-color: yellow;
+    border-radius: 20px;
+    padding: 10px 30px;
+    display: inline-block;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.about-text {
+    max-width: 1300px;
+    margin: 20px auto;
+    line-height: 1.8;
+    font-size: 1.2em;
+    color: #333;
+    text-align: center;
+}
+
+/* How It Works Section */
+/* How It Works Section */
+.how-it-works {
+    background-color: #222; /* Black background for the section */
+    color: yellow; /* Yellow text for the title */
+    padding: 50px 0; /* Add vertical padding for spacing */
+    text-align: center; /* Center-align the title */
+}
+
+.section-heading {
+    background-color: yellow; /* Yellow background for the title */
+    border-radius: 20px; /* Rounded edges for the title */
+    padding: 10px 30px; /* Padding around the title text */
+    display: inline-block; /* Make the title fit its content */
+    font-size: 1.8em; /* Adjust the font size */
+    font-weight: bold; /* Bold text for emphasis */
+    text-transform: uppercase; /* Make the text uppercase */
+    margin-bottom: 30px; /* Add spacing below the title */
+    color: black
+}
+
+
+.steps {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-evenly; /* Distribute boxes evenly across the row */
+    align-items: center; /* Center items vertically */
+    gap: 20px; /* Add space between the boxes */
+    max-width: 1200px; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container on the page */
+    flex-wrap: nowrap; /* Ensure all boxes stay in one line */
+}
+
+/* Step Box */
+.step-box {
+    background-color: yellow; /* Yellow background */
+    color: black; /* Black text */
+    border-radius: 10px; /* Rounded corners */
+    width: 200px; /* Fixed width */
+    height: 150px; /* Fixed height */
+    padding: 15px; /* Add padding for spacing */
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Stack heading and paragraph vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center; /* Center-align the text */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+/* Heading inside Step Box */
+.step-box h2 {
+    margin-bottom: 10px; /* Space below the heading */
+    font-size: 1.2em; /* Adjust heading size */
+    text-transform: uppercase; /* Uppercase for emphasis */
+}
+
+/* Paragraph inside Step Box */
+.step-box p {
+    font-size: 0.95em; /* Adjust font size */
+    margin: 0; /* Remove extra margins */
+    line-height: 1.4; /* Adjust line height for readability */
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+    padding: 20px;
+}
+
+.why-heading {
+    background-color: yellow;
+    border-radius: 20px;
+    padding: 10px 30px;
+    display: inline-block;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
