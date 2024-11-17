@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     //     history: [], // Empty array if no trip history
     // };
 
+    //NEW COMMENT
     const rideRequest = {
         currentStage: "Driver on the Way",
         history: [
