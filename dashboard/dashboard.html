@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div id="dashboard">
+        <h1>Dashboard</h1> 
+        <div id="ride-status" class="dashboard-section">
+            <h2>Ride Status</h2>
+            <div id="status-bar">
+                <!-- No Request Placeholder -->
+                <p id="no-request">No request yet.</p>
+        
+                <!-- Status Stages -->
+                <div id="status-stages" class="hidden">
+                    <div class="status-stage" id="submitted">Submitted</div>
+                    <div class="status-stage" id="driver-assigned">Driver Assigned</div>
+                    <div class="status-stage" id="driver-on-the-way">Driver on the Way</div>
+                    <div class="status-stage" id="driver-arrived">Driver Arrived</div>
+                    <div class="status-stage" id="during-trip">During the Trip</div>
+                    <div class="status-stage" id="arrived">Arrived</div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div id="ride-history" class="dashboard-section">
+            <h2>Ride History</h2>
+            <ul id="history-list">
+                <li>No trips yet.</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>
