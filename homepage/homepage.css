@@ -1,8 +1,10 @@
+/* Background Image */
 .hpimg {
     max-width: 99%;
     max-height: 99%;
 }
 
+/* Scrollbar */
 ::-webkit-scrollbar {
     width: 10px;
 
@@ -16,29 +18,56 @@
     background: linear-gradient(to bottom, #fccd2a, #1e201e);
 }
 
+/* NavBar */
 .navbar {
     position: fixed;
     top: 0;
-    margin: 0 auto;
     left: 50%;
     transform: translateX(-50%);
-    display: inline-block !important;
+    display: flex !important;
     justify-content: space-between !important;
     align-items: center !important;
-    height: 50px;
-    width: 50%;
+    height: 60px;
+    width: 70%;
     z-index: 1000;
     border-radius: 0px 0px 15px 15px !important;
     background-color: #ffe27f;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    padding: 0;
+}
+
+.navbar.container-fluid {
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .navbar-nav {
     background-color: #ffe27f;
-    border-radius: 0px 0px 10px 10px !important;
+    border-radius: 0px 0px 5px 5px !important;
     width: 90%;
+    height: 40px;
+    display: flex;
+    justify-items: space-evenly;
+    align-items: center;
     text-align: center;
     margin: 0 auto;
+    padding: 0;
+}
+
+/* Adjust Navbar for Smaller Screens */
+@media (max-width: 992px) {
+    .navbar-nav {
+        height: auto;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .navbar-nav .nav-item {
+        flex: 1;
+        text-align: left;
+    }
 }
 
 .navbar-toggler-icon {
@@ -46,6 +75,34 @@
     align-items: end;
 }
 
+.nav-logo {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.navbar-brand {
+    margin-left: 10px;
+    margin-bottom: 15px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.nav-link {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.nav-link:hover {
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    margin-left: auto !important;
+}
+
+
+/* Buttons */
 .image-container {
     position: relative;
     /* Relative to position absolute child elements */
@@ -85,6 +142,7 @@
 
 .image-container .btn:hover {
     background-color: #fccd2a;
+    font-weight: bold;
     transform: scale(1.05);
 }
 
