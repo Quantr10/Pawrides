@@ -4,48 +4,51 @@
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" href="../images/pawrides_logo.png">
     <link rel="stylesheet" href="./homepage.css">
     <title>PawRides</title>
 </head>
 
 <body>
     <!-- NavBar -->
-    <div class="navbar" style="display: flex; justify-content: center; height: 100px; width: 80%; z-index:1000;">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary"
-            style="width: 50%; height: 50px; border-radius: 15px !important;"></nav>
-        <div class="container-fluid" style="background-color: #fccd2a; height: 50px; border-radius:15px;">
-            <a class="navbar-brand" href="./homepage.html">PawRides</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Dashboard</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">FAQs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Sign up/ Login</a>
-                    </li>
-                </ul>
-            </div>
+    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary"> -->
+    <div class="navbar container-fluid">
+        <img class="hpimg nav-logo" display: flex; justify-content: center; align-items: center; width: 100%; overflow:
+            hidden; src="../images/pawrides_logo.png">
+        <a class="navbar-brand" href="./homepage.html">PawRides</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">FAQs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sign up/ Login</a>
+                </li>
+            </ul>
         </div>
-        </nav>
     </div>
 
     <!-- HOMEPAGE IMAGE -->
-    <div class="">
+    <div class="image-container">
         <img class="hpimg" display: flex; justify-content: center; align-items: center; width: 100%; overflow: hidden;
             src="../images/hp_wpp.png">
+        <div class="buttons">
+            <a href="../drive request/drive-request.html" class="btn">Request a Ride</a>
+            <a href="#" class="btn">Become a Driver</a>
+        </div>
     </div>
 
     <!-- AD BANNER -->
@@ -80,7 +83,10 @@
 
     <!-- FOOTER -->
 
-
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
