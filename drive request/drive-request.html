@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/pawrides_logo.png">
     <title>Hackathon</title>
     <link rel="stylesheet" href="drive-request.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <script src="script.js" defer></script>
 </head>
+
 <body>
     <h1>Request a Ride</h1>
     <form id="drive-request" title="Drive Request" novalidate>
         <h2>Drive Request Form</h2>
-        
+
         <!-- Name -->
         <div class="form-group" id="form-name">
             <label for="name">Name:</label>
@@ -88,7 +91,8 @@
         <!-- Phone -->
         <div class="form-group" id="form-phone">
             <label for="phone">Contact Number:</label>
-            <input type="tel" id="phone" name="phone" required placeholder="Enter your contact number" pattern="[0-9]{10}" aria-label="Phone Number">
+            <input type="tel" id="phone" name="phone" required placeholder="Enter your contact number"
+                pattern="[0-9]{10}" aria-label="Phone Number">
         </div>
 
         <!-- Number of Passengers -->
@@ -120,4 +124,5 @@
         <button type="submit" id="form-submit">Submit</button>
     </form>
 </body>
+
 </html>
