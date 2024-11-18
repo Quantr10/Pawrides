@@ -9,48 +9,48 @@ body {
 
 /* About Section */
 .about-section {
-    padding: 20px;
+    padding: 5px;
 }
 
 .heading {
-    background-color: yellow;
+    background-color: #FCCD2A;
     border-radius: 20px;
-    padding: 10px 30px;
-    display: inline-block;
-    font-size: 2em;
+    padding: 5px 25px;
+    display: inline-block; /*wrap around the text*/
+    font-size: 1.7em;
     font-weight: bold;
     text-transform: uppercase;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .about-text {
-    max-width: 1300px;
+    max-width: 1180px;
     margin: 20px auto;
     line-height: 1.8;
     font-size: 1.2em;
-    color: #333;
+    color: #1E201E;
     text-align: center;
 }
 
 /* How It Works Section */
-/* How It Works Section */
 .how-it-works {
-    background-color: #222; /* Black background for the section */
-    color: yellow; /* Yellow text for the title */
-    padding: 50px 0; /* Add vertical padding for spacing */
+    background-color: #1E201E; /* Black background for the section */
+    color: #FCCD2A; /* Yellow text for the title */
+    padding: 35px 0; /* Add vertical padding for spacing */
     text-align: center; /* Center-align the title */
 }
 
 .section-heading {
-    background-color: yellow; /* Yellow background for the title */
+    background-color: #FCCD2A; /* Yellow background for the title */
     border-radius: 20px; /* Rounded edges for the title */
-    padding: 10px 30px; /* Padding around the title text */
+    padding: 7px 25px; /* Padding around the title text */
     display: inline-block; /* Make the title fit its content */
-    font-size: 1.8em; /* Adjust the font size */
+    font-size: 1.7em; /* Adjust the font size */
     font-weight: bold; /* Bold text for emphasis */
     text-transform: uppercase; /* Make the text uppercase */
-    margin-bottom: 30px; /* Add spacing below the title */
-    color: black
+    margin-bottom: 25px; /* Add spacing below the title */
+    margin-top: 10px;
+    color: #1E201E
 }
 
 
@@ -58,20 +58,20 @@ body {
     display: flex; /* Use flexbox for alignment */
     justify-content: space-evenly; /* Distribute boxes evenly across the row */
     align-items: center; /* Center items vertically */
-    gap: 20px; /* Add space between the boxes */
-    max-width: 1200px; /* Set a maximum width for the container */
-    margin: 0 auto; /* Center the container on the page */
+    gap: 50px; /* Add space between the boxes */
+    max-width: 1600px; /* Set a maximum width for the container */
+    margin: 0px auto; /* Center the container on the page */
     flex-wrap: nowrap; /* Ensure all boxes stay in one line */
 }
 
 /* Step Box */
 .step-box {
-    background-color: yellow; /* Yellow background */
-    color: black; /* Black text */
+    background-color: #FCCD2A; /* Yellow background */
+    color: #1E201E; /* Black text */
     border-radius: 10px; /* Rounded corners */
-    width: 200px; /* Fixed width */
-    height: 150px; /* Fixed height */
-    padding: 15px; /* Add padding for spacing */
+    width: 190px; /* Fixed width */
+    height: 130px; /* Fixed height */
+    padding: 10px; /* Add padding for spacing */
     display: flex; /* Use flexbox for alignment */
     flex-direction: column; /* Stack heading and paragraph vertically */
     justify-content: center; /* Center content vertically */
@@ -96,16 +96,54 @@ body {
 
 /* Why Choose Us Section */
 .why-choose-us {
-    padding: 20px;
+    padding: 40px 20px; /* Add spacing around the section */
+    background-color: #ffffff; /* White background for the section */
+    text-align: center; /* Center the content */
 }
 
 .why-heading {
-    background-color: yellow;
-    border-radius: 20px;
-    padding: 10px 30px;
-    display: inline-block;
-    font-size: 2em;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin: 20px 0;
+    background-color: #FCCD2A; /* Yellow background for the main title */
+    border-radius: 20px; /* Rounded corners */
+    padding: 10px 30px; /* Padding around the title */
+    display: inline-block; /* Center the title block */
+    font-size: 2em; /* Adjust font size */
+    font-weight: bold; /* Bold font */
+    text-transform: uppercase; /* Uppercase text */
+    color: #1E201E; /* Black text for contrast */
+    margin-bottom: 30px; /* Spacing below the title */
+}
+
+.why-content {
+    max-width: 700px; /* Limit the width for better readability */
+    margin: 0 auto; /* Center the content */
+    text-align: left; /* Align text to the left */
+}
+
+.why-item {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    gap: 20px; /* Space between heading and content */
+    margin-bottom: 20px; /* Add space between items */
+    background-color: #1E201E; /* Black background for the content box */
+    padding: 5px; /* Add padding inside the content box */
+    border-radius: 10px; /* Rounded corners for the box */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+}
+
+.why-heading-box {
+    background-color: #FCCD2A; /* Yellow background for the heading box */
+    color: #1E201E; /* Black text */
+    padding: 10px 15px; /* Padding for the heading box */
+    border-radius: 5px; /* Rounded edges for the heading box */
+    font-size: 1.1em; /* Slightly larger font */
+    font-weight: bold; /* Bold font for headings */
+    text-align: center; /* Center the heading text */
+    min-width: 180px; /* Ensure all heading boxes have equal width */
+}
+
+.why-item p {
+    margin: 0; /* Remove default margin */
+    font-size: 1em; /* Adjust font size */
+    color: #ffffff; /* White text for the content */
+    line-height: 1.5; /* Spacing between lines for readability */
 }
