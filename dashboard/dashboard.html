@@ -9,25 +9,32 @@
 <body>
     <div id="dashboard">
         <h1>Dashboard</h1> 
-        <div id="ride-status" class="dashboard-section">
+    
+        <!-- Upcoming Rides Section -->
+        <div id="upcoming-rides" class="dashboard-section">
+            <h2>Upcoming Rides</h2>
+            <p id="no-rides-message" class="hidden">No upcoming rides.</p>
+            <ul id="rides-list">
+                <!-- Rides will be dynamically populated here -->
+            </ul>
+        </div>
+        
+        <!-- Ride Status Section -->
+        <div id="ride-status" class="dashboard-section hidden">
             <h2>Ride Status</h2>
-        
-            <!-- No Request Placeholder -->
-            <p id="no-request">No request yet.</p>
-        
-            <!-- Ride Status and Upcoming Trip Details -->
-            <div id="status-bar" class="hidden">
+            <div id="status-bar">
                 <!-- Upcoming Trip Details -->
                 <div id="upcoming-trip">
                     <p><strong>From:</strong> <span id="trip-from"></span></p>
                     <p><strong>To:</strong> <span id="trip-to"></span></p>
                     <p><strong>Date:</strong> <span id="trip-date"></span></p>
                     <p><strong>Time:</strong> <span id="trip-time"></span></p>
+                    <p><strong>No. of Passengers:</strong> <span id="trip-numpassengers"></span></p>
                 </div>
-        
+    
                 <!-- Status Stages -->
                 <div id="status-stages">
-                    <div class="status-stage" id="requested">Requested</div>
+                    <div class="status-stage" id="submitted">Submitted</div>
                     <div class="status-stage" id="driver-assigned">Driver Assigned</div>
                     <div class="status-stage" id="driver-on-the-way">Driver on the Way</div>
                     <div class="status-stage" id="driver-arrived">Driver Arrived</div>
@@ -37,8 +44,7 @@
             </div>
         </div>
         
-        
-        
+        <!-- Ride History Section -->
         <div id="ride-history" class="dashboard-section">
             <h2>Ride History</h2>
             <ul id="history-list">
@@ -46,7 +52,7 @@
             </ul>
         </div>
     </div>
-
+    
     <script src="dashboard.js"></script>
 </body>
 </html>
