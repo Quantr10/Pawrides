@@ -17,38 +17,51 @@ h1, h2 {
     color: #4CAF50;
 }
 
-/* Ride Status Styles */
+/* Ride Status Section */
 #ride-status {
     margin: 20px 0;
     background: #fff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
-#status-bar {
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
+/* No Request Message */
 #no-request {
     color: #999;
     font-size: 1.2rem;
+    text-align: center;
 }
 
+/* Status Bar */
+#status-bar {
+    margin-top: 15px;
+}
+
+/* Upcoming Trip Details */
+#upcoming-trip {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #f9f9f9;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+#upcoming-trip p {
+    margin: 5px 0;
+}
+
+/* Status Stages */
 #status-stages {
     display: flex;
     gap: 10px;
-    width: 100%;
     justify-content: space-around;
 }
 
-/* General Styles for Status Stages */
 .status-stage {
     padding: 10px;
-    border: 1px solid #ccc;
+    font-size: 15px;
     border-radius: 5px;
     text-align: center;
     background-color: #eee;
@@ -56,7 +69,7 @@ h1, h2 {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Active Stage Styling */
+/* Highlight Active Stage */
 .status-stage.active {
     background-color: #4CAF50;
     color: white;
@@ -69,7 +82,7 @@ h1, h2 {
     background: #fff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 #history-list {

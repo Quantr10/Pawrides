@@ -1,32 +1,41 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // Sample data: Choose one of the following rideRequest. Replace this with live data from a server or API later
+    // Example data: Replace with live data
     // const rideRequest = {
     //     currentStage: null, 
-    //     history: [], // Empty array if no trip history
+    //     details: [], // Empty array if no trip history
     // };
 
-    //NEW COMMENT
     const rideRequest = {
-        currentStage: "Driver on the Way",
-        history: [
-            { date: "2024-11-15", from: "Union Building", to: "Walmart" },
-        ],
+        currentStage: "Driver Arrived", // Current ride status
+        details: {
+            from: "Union Building",
+            to: "Walmart",
+                date: "2024-11-20",
+                time: "10:00 AM",
+            },
     };
 
     const noRequestMessage = document.getElementById("no-request");
+    const statusBar = document.getElementById("status-bar");
+    const upcomingTripSection = document.getElementById("upcoming-trip");
     const statusStages = document.getElementById("status-stages");
 
-    // Update Ride Status
     if (!rideRequest.currentStage) {
-        // No request: Show "No request yet" and hide status stages
+        // No request: Show "No request yet" and hide status bar
         noRequestMessage.classList.remove("hidden");
-        statusStages.classList.add("hidden");
+        statusBar.classList.add("hidden");
     } else {
-        // There is a request: Show status stages and hide "No request yet"
+        // Active request: Show status bar and hide "No request yet"
         noRequestMessage.classList.add("hidden");
-        statusStages.classList.remove("hidden");
+        statusBar.classList.remove("hidden");
 
-        // Highlight current stage
+        // Populate trip details
+        document.getElementById("trip-from").textContent = rideRequest.details.from;
+        document.getElementById("trip-to").textContent = rideRequest.details.to;
+        document.getElementById("trip-date").textContent = rideRequest.details.date;
+        document.getElementById("trip-time").textContent = rideRequest.details.time;
+
+        // Highlight the current stage
         const stages = Array.from(document.querySelectorAll(".status-stage"));
         stages.forEach(stage => {
             if (stage.textContent === rideRequest.currentStage) {
@@ -37,3 +46,4 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 });
+        

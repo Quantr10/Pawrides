@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../images/pawrides_logo.png">
     <title>Dashboard</title>
     <link rel="stylesheet" href="dashboard.css">
 </head>
-
 <body>
     <div id="dashboard">
-        <h1>Dashboard</h1>
+        <h1>Dashboard</h1> 
         <div id="ride-status" class="dashboard-section">
             <h2>Ride Status</h2>
-            <div id="status-bar">
-                <!-- No Request Placeholder -->
-                <p id="no-request">No request yet.</p>
-
+        
+            <!-- No Request Placeholder -->
+            <p id="no-request">No request yet.</p>
+        
+            <!-- Ride Status and Upcoming Trip Details -->
+            <div id="status-bar" class="hidden">
+                <!-- Upcoming Trip Details -->
+                <div id="upcoming-trip">
+                    <p><strong>From:</strong> <span id="trip-from"></span></p>
+                    <p><strong>To:</strong> <span id="trip-to"></span></p>
+                    <p><strong>Date:</strong> <span id="trip-date"></span></p>
+                    <p><strong>Time:</strong> <span id="trip-time"></span></p>
+                </div>
+        
                 <!-- Status Stages -->
-                <div id="status-stages" class="hidden">
-                    <div class="status-stage" id="submitted">Submitted</div>
+                <div id="status-stages">
+                    <div class="status-stage" id="requested">Requested</div>
                     <div class="status-stage" id="driver-assigned">Driver Assigned</div>
                     <div class="status-stage" id="driver-on-the-way">Driver on the Way</div>
                     <div class="status-stage" id="driver-arrived">Driver Arrived</div>
@@ -29,8 +36,9 @@
                 </div>
             </div>
         </div>
-
-
+        
+        
+        
         <div id="ride-history" class="dashboard-section">
             <h2>Ride History</h2>
             <ul id="history-list">
@@ -41,5 +49,4 @@
 
     <script src="dashboard.js"></script>
 </body>
-
 </html>
