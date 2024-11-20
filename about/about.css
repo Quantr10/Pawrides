@@ -12,40 +12,40 @@ body {
     padding: 5px;
 }
 
-.heading {
+.about-heading {
     background-color: #FCCD2A;
     border-radius: 20px;
-    padding: 5px 25px;
+    padding: 3px 20px;
     display: inline-block; /*wrap around the text*/
-    font-size: 1.7em;
+    font-size: 1.3em;
     font-weight: bold;
     text-transform: uppercase;
     margin: 10px 0;
 }
 
 .about-text {
-    max-width: 1180px;
-    margin: 20px auto;
+    max-width: 855px;
+    margin: 10px auto; 
     line-height: 1.8;
-    font-size: 1.2em;
+    font-size: 0.8em;
     color: #1E201E;
     text-align: center;
 }
 
 /* How It Works Section */
-.how-it-works {
+.how-section {
     background-color: #1E201E; /* Black background for the section */
     color: #FCCD2A; /* Yellow text for the title */
-    padding: 35px 0; /* Add vertical padding for spacing */
+    padding: 10px 0; /* Add vertical padding for spacing */
     text-align: center; /* Center-align the title */
 }
 
-.section-heading {
+.how-heading {
     background-color: #FCCD2A; /* Yellow background for the title */
     border-radius: 20px; /* Rounded edges for the title */
-    padding: 7px 25px; /* Padding around the title text */
+    padding: 5px 20px; /* Padding around the title text */
     display: inline-block; /* Make the title fit its content */
-    font-size: 1.7em; /* Adjust the font size */
+    font-size: 1.3em; /* Adjust the font size */
     font-weight: bold; /* Bold text for emphasis */
     text-transform: uppercase; /* Make the text uppercase */
     margin-bottom: 25px; /* Add spacing below the title */
@@ -69,8 +69,8 @@ body {
     background-color: #FCCD2A; /* Yellow background */
     color: #1E201E; /* Black text */
     border-radius: 10px; /* Rounded corners */
-    width: 190px; /* Fixed width */
-    height: 130px; /* Fixed height */
+    width: 170px; /* Fixed width */
+    height: 90px; /* Fixed height */
     padding: 10px; /* Add padding for spacing */
     display: flex; /* Use flexbox for alignment */
     flex-direction: column; /* Stack heading and paragraph vertically */
@@ -82,14 +82,13 @@ body {
 
 /* Heading inside Step Box */
 .step-box h2 {
-    margin-bottom: 10px; /* Space below the heading */
-    font-size: 1.2em; /* Adjust heading size */
-    text-transform: uppercase; /* Uppercase for emphasis */
+    margin-bottom: 5px; /* Space below the heading */
+    font-size: 1em; /* Adjust heading size */
 }
 
 /* Paragraph inside Step Box */
 .step-box p {
-    font-size: 0.95em; /* Adjust font size */
+    font-size: 0.8em; /* Adjust font size */
     margin: 0; /* Remove extra margins */
     line-height: 1.4; /* Adjust line height for readability */
 }
@@ -104,9 +103,9 @@ body {
 .why-heading {
     background-color: #FCCD2A; /* Yellow background for the main title */
     border-radius: 20px; /* Rounded corners */
-    padding: 10px 30px; /* Padding around the title */
+    padding: 3px 20px; /* Padding around the title */
     display: inline-block; /* Center the title block */
-    font-size: 2em; /* Adjust font size */
+    font-size: 1.3em; /* Adjust font size */
     font-weight: bold; /* Bold font */
     text-transform: uppercase; /* Uppercase text */
     color: #1E201E; /* Black text for contrast */
@@ -114,8 +113,8 @@ body {
 }
 
 .why-content {
-    max-width: 700px; /* Limit the width for better readability */
-    margin: 0 auto; /* Center the content */
+    max-width: 600px; /* Full box width*/
+    margin:  auto; /* Center the content */
     text-align: left; /* Align text to the left */
 }
 
@@ -125,7 +124,7 @@ body {
     gap: 20px; /* Space between heading and content */
     margin-bottom: 20px; /* Add space between items */
     background-color: #1E201E; /* Black background for the content box */
-    padding: 5px; /* Add padding inside the content box */
+    padding: 4px; /* Add padding inside the content box */
     border-radius: 10px; /* Rounded corners for the box */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
 }
@@ -133,9 +132,9 @@ body {
 .why-heading-box {
     background-color: #FCCD2A; /* Yellow background for the heading box */
     color: #1E201E; /* Black text */
-    padding: 10px 15px; /* Padding for the heading box */
+    padding: 10px 5px; /* Padding for the heading box */
     border-radius: 5px; /* Rounded edges for the heading box */
-    font-size: 1.1em; /* Slightly larger font */
+    font-size: 0.8em; /* Slightly larger font */
     font-weight: bold; /* Bold font for headings */
     text-align: center; /* Center the heading text */
     min-width: 180px; /* Ensure all heading boxes have equal width */
@@ -143,7 +142,35 @@ body {
 
 .why-item p {
     margin: 0; /* Remove default margin */
-    font-size: 1em; /* Adjust font size */
+    font-size: 0.8em; /* Adjust font size */
     color: #ffffff; /* White text for the content */
     line-height: 1.5; /* Spacing between lines for readability */
 }
+
+.bottom-button {
+        text-align: center; /* Center the button horizontally */
+        margin-top: 5px; /* Smaller space above */
+        margin-bottom: 30px; /* Keep some space below */
+    }
+    
+    
+    
+
+.button-link {
+    display: inline-block;
+    background-color: #FCCD2A; /* Button background color */
+    color: #1E201E; /* Button text color */
+    padding: 10px 30px; /* Add padding around the text */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 1em; /* Adjust font size */
+    font-weight: bold; /* Bold text for emphasis */
+    text-decoration: none; /* Remove underline from the link */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    transition: background-color 0.3s, transform 0.3s; /* Add hover effects */
+}
+
+.button-link:hover {
+    background-color: #f4d03f; /* Slightly darker yellow */
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
+
