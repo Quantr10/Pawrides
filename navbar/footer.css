@@ -1,38 +1,44 @@
 /* Footer */
-.plantit-footer {
-    background-color: #7C9070;
-    z-index: -1;
+.footer {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffe27f;
+    border-radius: 15px 15px 0px 0px !important;
 }
 
 .footer-content {
-    padding-top: 30px;
-    padding-left: 100px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .footer-item {
     width: 29%;
+    margin-bottom: 0;
 }
 
 .footer-title {
     font-weight: bolder;
-    color: white;
-    text-align: justify;
+    color: black;
+    text-align: center;
 }
 
 .footer-text {
-    color: white;
+    color: black;
     font-style: italic;
-    /* text-align: center; */
+    text-align: justify;
 }
 
 .footer-input {
-    color: #7C9070;
+    color: black;
     margin: 2px auto;
     padding: 8px;
     border-radius: 7px;
-    border: 1px solid #B3C99C;
+    border: 1px solid black;
 }
 
 .footer-input:hover {
@@ -129,4 +135,9 @@
     left: 0;
     bottom: 0;
     width: 100%;
+}
+
+.copyright {
+    margin-top: 0;
+    padding-top: 0;
 }
