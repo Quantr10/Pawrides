@@ -8,6 +8,7 @@
 
 body {
     margin-top: -60px;
+    background-color: #1E201E;
 }
 
 /* Founders */
@@ -134,4 +135,10 @@ body {
         padding: 7px 12px;
         min-width: 80px;
     }
+}
+
+h1,
+h3,
+h6 {
+    color: white;
 }
