@@ -3,23 +3,33 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #ffffff; /* Light background */
+    background-color: #1E201E; /* Light background */
     text-align: center;
 }
 
 /* About Section */
 .about-section {
     padding: 5px;
+    margin: auto 160px;
+    gap: 30px;
+    display: flex;
+}
+
+.about-image {
+    max-width: 50%; /* Scale down to fit the container */
+    height: auto;    /* Maintain aspect ratio */
+    /* Optional: Adjust object-fit to maintain aspect ratio */
+    object-fit: cover;
+    border-radius: 15px;
 }
 
 .about-heading {
     background-color: #FCCD2A;
-    border-radius: 20px;
+    border-radius: 15px;
     padding: 3px 20px;
     display: inline-block; /*wrap around the text*/
     font-size: 1.3em;
     font-weight: bold;
-    text-transform: uppercase;
     margin: 10px 0;
 }
 
@@ -28,8 +38,8 @@ body {
     margin: 10px auto; 
     line-height: 1.8;
     font-size: 0.8em;
-    color: #1E201E;
-    text-align: center;
+    color: white;
+    text-align: left;
 }
 
 /* How It Works Section */
@@ -38,16 +48,17 @@ body {
     color: #FCCD2A; /* Yellow text for the title */
     padding: 10px 0; /* Add vertical padding for spacing */
     text-align: center; /* Center-align the title */
+    margin: auto 160px;
+    border-radius: 15px;
 }
 
 .how-heading {
     background-color: #FCCD2A; /* Yellow background for the title */
-    border-radius: 20px; /* Rounded edges for the title */
+    border-radius: 15px; /* Rounded edges for the title */
     padding: 5px 20px; /* Padding around the title text */
     display: inline-block; /* Make the title fit its content */
     font-size: 1.3em; /* Adjust the font size */
     font-weight: bold; /* Bold text for emphasis */
-    text-transform: uppercase; /* Make the text uppercase */
     margin-bottom: 25px; /* Add spacing below the title */
     margin-top: 10px;
     color: #1E201E
@@ -58,7 +69,7 @@ body {
     display: flex; /* Use flexbox for alignment */
     justify-content: space-evenly; /* Distribute boxes evenly across the row */
     align-items: center; /* Center items vertically */
-    gap: 50px; /* Add space between the boxes */
+    gap: 5px; /* Add space between the boxes */
     max-width: 1600px; /* Set a maximum width for the container */
     margin: 0px auto; /* Center the container on the page */
     flex-wrap: nowrap; /* Ensure all boxes stay in one line */
@@ -68,8 +79,8 @@ body {
 .step-box {
     background-color: #FCCD2A; /* Yellow background */
     color: #1E201E; /* Black text */
-    border-radius: 10px; /* Rounded corners */
-    width: 170px; /* Fixed width */
+    border-radius: 15px; /* Rounded corners */
+    width: 150px; /* Fixed width */
     height: 90px; /* Fixed height */
     padding: 10px; /* Add padding for spacing */
     display: flex; /* Use flexbox for alignment */
@@ -78,6 +89,7 @@ body {
     align-items: center; /* Center content horizontally */
     text-align: center; /* Center-align the text */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    margin: 10px 5px;
 }
 
 /* Heading inside Step Box */
@@ -102,12 +114,11 @@ body {
 
 .why-heading {
     background-color: #FCCD2A; /* Yellow background for the main title */
-    border-radius: 20px; /* Rounded corners */
+    border-radius: 15px; /* Rounded corners */
     padding: 3px 20px; /* Padding around the title */
     display: inline-block; /* Center the title block */
     font-size: 1.3em; /* Adjust font size */
     font-weight: bold; /* Bold font */
-    text-transform: uppercase; /* Uppercase text */
     color: #1E201E; /* Black text for contrast */
     margin-bottom: 30px; /* Spacing below the title */
 }
@@ -125,7 +136,7 @@ body {
     margin-bottom: 20px; /* Add space between items */
     background-color: #1E201E; /* Black background for the content box */
     padding: 4px; /* Add padding inside the content box */
-    border-radius: 10px; /* Rounded corners for the box */
+    border-radius: 15px; /* Rounded corners for the box */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
 }
 
@@ -133,7 +144,7 @@ body {
     background-color: #FCCD2A; /* Yellow background for the heading box */
     color: #1E201E; /* Black text */
     padding: 10px 5px; /* Padding for the heading box */
-    border-radius: 5px; /* Rounded edges for the heading box */
+    border-radius: 15px; /* Rounded edges for the heading box */
     font-size: 0.8em; /* Slightly larger font */
     font-weight: bold; /* Bold font for headings */
     text-align: center; /* Center the heading text */
@@ -161,7 +172,7 @@ body {
     background-color: #FCCD2A; /* Button background color */
     color: #1E201E; /* Button text color */
     padding: 10px 30px; /* Add padding around the text */
-    border-radius: 10px; /* Rounded corners */
+    border-radius: 15px; /* Rounded corners */
     font-size: 1em; /* Adjust font size */
     font-weight: bold; /* Bold text for emphasis */
     text-decoration: none; /* Remove underline from the link */
