@@ -3,12 +3,7 @@ body {
     margin: 0;
     margin-top: 70px;
     font-family: Arial, sans-serif;
-<<<<<<< HEAD
-    background-color: #ffffff;
-    /* Light background */
-=======
     background-color: #1E201E;
->>>>>>> 855a2b0a3705bc51125908ba5482d172554dc600
     text-align: center;
     color: #ffffff;
 }
@@ -27,7 +22,6 @@ h1, h2 {
     padding: 50px 20px;
     margin: 0px auto;
     max-width: 1200px;
-    flex-wrap: wrap;
 }
 
 .about-image {
@@ -40,16 +34,6 @@ h1, h2 {
 
 .about-heading {
     background-color: #FCCD2A;
-<<<<<<< HEAD
-    border-radius: 20px;
-    padding: 5px 25px;
-    display: inline-block;
-    /*wrap around the text*/
-    font-size: 1.7em;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin: 10px 0;
-=======
     color: #1E201E;
     border-radius: 15px;
     padding: 10px 20px;
@@ -57,7 +41,6 @@ h1, h2 {
     font-size: 1rem;
     margin-bottom: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
->>>>>>> 855a2b0a3705bc51125908ba5482d172554dc600
 }
 
 .about-text {
@@ -69,38 +52,6 @@ h1, h2 {
 }
 
 /* How It Works Section */
-<<<<<<< HEAD
-.how-it-works {
-    background-color: #1E201E;
-    /* Black background for the section */
-    color: #FCCD2A;
-    /* Yellow text for the title */
-    padding: 35px 0;
-    /* Add vertical padding for spacing */
-    text-align: center;
-    /* Center-align the title */
-}
-
-.section-heading {
-    background-color: #FCCD2A;
-    /* Yellow background for the title */
-    border-radius: 20px;
-    /* Rounded edges for the title */
-    padding: 7px 25px;
-    /* Padding around the title text */
-    display: inline-block;
-    /* Make the title fit its content */
-    font-size: 1.7em;
-    /* Adjust the font size */
-    font-weight: bold;
-    /* Bold text for emphasis */
-    text-transform: uppercase;
-    /* Make the text uppercase */
-    margin-bottom: 25px;
-    /* Add spacing below the title */
-    margin-top: 10px;
-    color: #1E201E
-=======
 .how-section {
     background-color: #292a2a;
     padding: 30px 20px;
@@ -119,60 +70,18 @@ h1, h2 {
     margin-bottom: 40px;
     color: #1E201E;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
->>>>>>> 855a2b0a3705bc51125908ba5482d172554dc600
 }
 
 .steps {
     display: flex;
-<<<<<<< HEAD
-    /* Use flexbox for alignment */
-    justify-content: space-evenly;
-    /* Distribute boxes evenly across the row */
-    align-items: center;
-    /* Center items vertically */
-    gap: 50px;
-    /* Add space between the boxes */
-    max-width: 1600px;
-    /* Set a maximum width for the container */
-    margin: 0px auto;
-    /* Center the container on the page */
-    flex-wrap: nowrap;
-    /* Ensure all boxes stay in one line */
-=======
     justify-content: space-between;
-    gap: 20px;
+    gap: 10px;
     flex-wrap: wrap;
->>>>>>> 855a2b0a3705bc51125908ba5482d172554dc600
 }
 
 /* Step Box */
 .step-box {
     background-color: #FCCD2A;
-<<<<<<< HEAD
-    /* Yellow background */
-    color: #1E201E;
-    /* Black text */
-    border-radius: 10px;
-    /* Rounded corners */
-    width: 190px;
-    /* Fixed width */
-    height: 130px;
-    /* Fixed height */
-    padding: 10px;
-    /* Add padding for spacing */
-    display: flex;
-    /* Use flexbox for alignment */
-    flex-direction: column;
-    /* Stack heading and paragraph vertically */
-    justify-content: center;
-    /* Center content vertically */
-    align-items: center;
-    /* Center content horizontally */
-    text-align: center;
-    /* Center-align the text */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    /* Subtle shadow for depth */
-=======
     color: #1E201E;
     border-radius: 15px;
     width: 180px;
@@ -185,43 +94,16 @@ h1, h2 {
 .step-box:hover {
     transform: scale(1.05);
     background-color: #f4d03f;
->>>>>>> 855a2b0a3705bc51125908ba5482d172554dc600
 }
 
 /* Heading inside Step Box */
 .step-box h2 {
     margin-bottom: 10px;
-<<<<<<< HEAD
-    /* Space below the heading */
-    font-size: 1.2em;
-    /* Adjust heading size */
-    text-transform: uppercase;
-    /* Uppercase for emphasis */
-=======
     font-size: 1em;
->>>>>>> 855a2b0a3705bc51125908ba5482d172554dc600
 }
 
 /* Paragraph inside Step Box */
 .step-box p {
-<<<<<<< HEAD
-    font-size: 0.95em;
-    /* Adjust font size */
-    margin: 0;
-    /* Remove extra margins */
-    line-height: 1.4;
-    /* Adjust line height for readability */
-}
-
-/* Why Choose Us Section */
-.why-choose-us {
-    padding: 40px 20px;
-    /* Add spacing around the section */
-    background-color: #ffffff;
-    /* White background for the section */
-    text-align: center;
-    /* Center the content */
-=======
     font-size: 0.9em; /* Adjust font size */
 }
 
@@ -232,58 +114,10 @@ h1, h2 {
     margin: 30px auto;
     border-radius: 15px;
     max-width: 1200px;
->>>>>>> 855a2b0a3705bc51125908ba5482d172554dc600
 }
 
 .why-heading {
     background-color: #FCCD2A;
-<<<<<<< HEAD
-    /* Yellow background for the main title */
-    border-radius: 20px;
-    /* Rounded corners */
-    padding: 10px 30px;
-    /* Padding around the title */
-    display: inline-block;
-    /* Center the title block */
-    font-size: 2em;
-    /* Adjust font size */
-    font-weight: bold;
-    /* Bold font */
-    text-transform: uppercase;
-    /* Uppercase text */
-    color: #1E201E;
-    /* Black text for contrast */
-    margin-bottom: 30px;
-    /* Spacing below the title */
-}
-
-.why-content {
-    max-width: 700px;
-    /* Limit the width for better readability */
-    margin: 0 auto;
-    /* Center the content */
-    text-align: left;
-    /* Align text to the left */
-}
-
-.why-item {
-    display: flex;
-    /* Use flexbox for alignment */
-    align-items: center;
-    /* Center items vertically */
-    gap: 20px;
-    /* Space between heading and content */
-    margin-bottom: 20px;
-    /* Add space between items */
-    background-color: #1E201E;
-    /* Black background for the content box */
-    padding: 5px;
-    /* Add padding inside the content box */
-    border-radius: 10px;
-    /* Rounded corners for the box */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    /* Add a shadow for depth */
-=======
     border-radius: 15px;
     padding: 10px 20px;
     display: inline-block;
@@ -311,45 +145,14 @@ h1, h2 {
     width: 100%;
     border-radius: 15px; /* Rounded corners for the box */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
->>>>>>> 855a2b0a3705bc51125908ba5482d172554dc600
 }
 
 .why-heading-box {
     background-color: #FCCD2A;
-<<<<<<< HEAD
-    /* Yellow background for the heading box */
-    color: #1E201E;
-    /* Black text */
-    padding: 10px 15px;
-    /* Padding for the heading box */
-    border-radius: 5px;
-    /* Rounded edges for the heading box */
-    font-size: 1.1em;
-    /* Slightly larger font */
-    font-weight: bold;
-    /* Bold font for headings */
-    text-align: center;
-    /* Center the heading text */
-    min-width: 180px;
-    /* Ensure all heading boxes have equal width */
-}
-
-.why-item p {
-    margin: 0;
-    /* Remove default margin */
-    font-size: 1em;
-    /* Adjust font size */
-    color: #ffffff;
-    /* White text for the content */
-    line-height: 1.5;
-    /* Spacing between lines for readability */
-}
-=======
     color: #1E201E;
     padding: 10px 5px; /* Padding for the heading box */
     border-radius: 15px; /* Rounded edges for the heading box */
     font-size: 1em; /* Slightly larger font */
-    font-weight: bold; /* Bold font for headings */
     text-align: center; /* Center the heading text */
     min-width: 200px; /* Ensure all heading boxes have equal width */
 }
@@ -433,4 +236,3 @@ h1, h2 {
         font-size: 1rem;
     }
 }
->>>>>>> 855a2b0a3705bc51125908ba5482d172554dc600
