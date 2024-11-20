@@ -186,3 +186,52 @@ h1, h2 {
     transform: scale(1.05); /* Slightly increase size on hover */
 }
 
+@media (max-width: 768px) {
+    .about-section {
+        flex-direction: column; /* Stack items vertically */
+        text-align: center;
+        gap: 20px;
+    }
+
+    .about-image {
+        max-width: 90%; /* Full width for smaller screens */
+    }
+
+    .steps {
+        flex-direction: column;
+        gap: 20px; /* Adjust gap between step boxes */
+    }
+
+    .why-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .button-link {
+        padding: 12px 30px; /* Adjust button size */
+        font-size: 1.1rem; /* Reduce font size */
+    }
+}
+
+@media (max-width: 480px) {
+    .about-section {
+        padding: 20px 10px;
+    }
+
+    .about-heading {
+        font-size: 1rem; /* Smaller font size for headings */
+    }
+
+    .steps {
+        gap: 15px;
+    }
+
+    .step-box {
+        width: 100%; /* Full width for step boxes */
+    }
+
+    .button-link {
+        padding: 10px 20px; /* Smaller button padding */
+        font-size: 1rem;
+    }
+}
