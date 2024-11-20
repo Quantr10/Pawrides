@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         upcomingRides.forEach(ride => {
             const listItem = document.createElement("li");
-            listItem.textContent = `From: ${ride.from}, To: ${ride.to} (Date: ${ride.date})`;
+            listItem.textContent = `${ride.from} to ${ride.to} on ${ride.date}`;
             listItem.dataset.rideId = ride.id; // Attach ride ID for tracking
             listItem.addEventListener("click", () => showRideStatus(ride));
             ridesList.appendChild(listItem);

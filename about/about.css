@@ -1,21 +1,46 @@
-/* styles.css */
 /* General Styles */
 body {
     margin: 0;
     margin-top: 70px;
     font-family: Arial, sans-serif;
+<<<<<<< HEAD
     background-color: #ffffff;
     /* Light background */
+=======
+    background-color: #1E201E;
+>>>>>>> 855a2b0a3705bc51125908ba5482d172554dc600
     text-align: center;
+    color: #ffffff;
+}
+
+h1, h2 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
 }
 
 /* About Section */
 .about-section {
-    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px 20px;
+    margin: 0px auto;
+    max-width: 1200px;
+    flex-wrap: wrap;
 }
 
-.heading {
+.about-image {
+    max-width: 45%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.about-heading {
     background-color: #FCCD2A;
+<<<<<<< HEAD
     border-radius: 20px;
     padding: 5px 25px;
     display: inline-block;
@@ -24,18 +49,27 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     margin: 10px 0;
+=======
+    color: #1E201E;
+    border-radius: 15px;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+>>>>>>> 855a2b0a3705bc51125908ba5482d172554dc600
 }
 
 .about-text {
-    max-width: 1180px;
-    margin: 20px auto;
+    max-width: 600px;
+    margin: auto; 
     line-height: 1.8;
-    font-size: 1.2em;
-    color: #1E201E;
-    text-align: center;
+    font-size: 1rem;
+    text-align: left;
 }
 
 /* How It Works Section */
+<<<<<<< HEAD
 .how-it-works {
     background-color: #1E201E;
     /* Black background for the section */
@@ -66,11 +100,31 @@ body {
     /* Add spacing below the title */
     margin-top: 10px;
     color: #1E201E
+=======
+.how-section {
+    background-color: #292a2a;
+    padding: 30px 20px;
+    margin: 30px auto;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 1200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
+.how-heading {
+    background-color: #FCCD2A;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    margin-bottom: 40px;
+    color: #1E201E;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+>>>>>>> 855a2b0a3705bc51125908ba5482d172554dc600
+}
 
 .steps {
     display: flex;
+<<<<<<< HEAD
     /* Use flexbox for alignment */
     justify-content: space-evenly;
     /* Distribute boxes evenly across the row */
@@ -84,11 +138,17 @@ body {
     /* Center the container on the page */
     flex-wrap: nowrap;
     /* Ensure all boxes stay in one line */
+=======
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+>>>>>>> 855a2b0a3705bc51125908ba5482d172554dc600
 }
 
 /* Step Box */
 .step-box {
     background-color: #FCCD2A;
+<<<<<<< HEAD
     /* Yellow background */
     color: #1E201E;
     /* Black text */
@@ -112,20 +172,39 @@ body {
     /* Center-align the text */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     /* Subtle shadow for depth */
+=======
+    color: #1E201E;
+    border-radius: 15px;
+    width: 180px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s background-color 0.3s;
+}
+
+.step-box:hover {
+    transform: scale(1.05);
+    background-color: #f4d03f;
+>>>>>>> 855a2b0a3705bc51125908ba5482d172554dc600
 }
 
 /* Heading inside Step Box */
 .step-box h2 {
     margin-bottom: 10px;
+<<<<<<< HEAD
     /* Space below the heading */
     font-size: 1.2em;
     /* Adjust heading size */
     text-transform: uppercase;
     /* Uppercase for emphasis */
+=======
+    font-size: 1em;
+>>>>>>> 855a2b0a3705bc51125908ba5482d172554dc600
 }
 
 /* Paragraph inside Step Box */
 .step-box p {
+<<<<<<< HEAD
     font-size: 0.95em;
     /* Adjust font size */
     margin: 0;
@@ -142,10 +221,23 @@ body {
     /* White background for the section */
     text-align: center;
     /* Center the content */
+=======
+    font-size: 0.9em; /* Adjust font size */
+}
+
+/* Why Choose Us Section */
+.why-us {
+    padding: 30px 20px;
+    background-color: #1E201E;
+    margin: 30px auto;
+    border-radius: 15px;
+    max-width: 1200px;
+>>>>>>> 855a2b0a3705bc51125908ba5482d172554dc600
 }
 
 .why-heading {
     background-color: #FCCD2A;
+<<<<<<< HEAD
     /* Yellow background for the main title */
     border-radius: 20px;
     /* Rounded corners */
@@ -191,10 +283,40 @@ body {
     /* Rounded corners for the box */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     /* Add a shadow for depth */
+=======
+    border-radius: 15px;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 1.5em;
+    color: #1E201E;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.why-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 800px; /* Full box width*/
+    margin:  auto; /* Center the content */
+}
+
+.why-item {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    gap: 15px; /* Space between heading and content */
+    background-color: #292A2A;
+    padding: 20px; /* Add padding inside the content box */
+    width: 100%;
+    border-radius: 15px; /* Rounded corners for the box */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+>>>>>>> 855a2b0a3705bc51125908ba5482d172554dc600
 }
 
 .why-heading-box {
     background-color: #FCCD2A;
+<<<<<<< HEAD
     /* Yellow background for the heading box */
     color: #1E201E;
     /* Black text */
@@ -222,3 +344,93 @@ body {
     line-height: 1.5;
     /* Spacing between lines for readability */
 }
+=======
+    color: #1E201E;
+    padding: 10px 5px; /* Padding for the heading box */
+    border-radius: 15px; /* Rounded edges for the heading box */
+    font-size: 1em; /* Slightly larger font */
+    font-weight: bold; /* Bold font for headings */
+    text-align: center; /* Center the heading text */
+    min-width: 200px; /* Ensure all heading boxes have equal width */
+}
+
+.why-item p {
+    font-size: 0.9em; /* Adjust font size */
+    color: #ffffff;
+    margin: 0;
+}
+
+.bottom-button {
+    text-align: center; /* Center the button horizontally */
+    margin: 50px 0; /* Keep some space below */
+}
+    
+
+.button-link {
+    display: inline-block;
+    background-color: #FCCD2A; /* Button background color */
+    color: #1E201E; /* Button text color */
+    padding: 10px 30px; /* Add padding around the text */
+    border-radius: 15px; /* Rounded corners */
+    font-size: 1.2em; /* Adjust font size */
+    font-weight: bold; /* Bold text for emphasis */
+    text-decoration: none; /* Remove underline from the link */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    transition: background-color 0.3s, transform 0.3s; /* Add hover effects */
+}
+
+.button-link:hover {
+    background-color: #f4d03f; /* Slightly darker yellow */
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+@media (max-width: 768px) {
+    .about-section {
+        flex-direction: column; /* Stack items vertically */
+        text-align: center;
+        gap: 20px;
+    }
+
+    .about-image {
+        max-width: 90%; /* Full width for smaller screens */
+    }
+
+    .steps {
+        flex-direction: column;
+        gap: 20px; /* Adjust gap between step boxes */
+    }
+
+    .why-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .button-link {
+        padding: 12px 30px; /* Adjust button size */
+        font-size: 1.1rem; /* Reduce font size */
+    }
+}
+
+@media (max-width: 480px) {
+    .about-section {
+        padding: 20px 10px;
+    }
+
+    .about-heading {
+        font-size: 1rem; /* Smaller font size for headings */
+    }
+
+    .steps {
+        gap: 15px;
+    }
+
+    .step-box {
+        width: 100%; /* Full width for step boxes */
+    }
+
+    .button-link {
+        padding: 10px 20px; /* Smaller button padding */
+        font-size: 1rem;
+    }
+}
+>>>>>>> 855a2b0a3705bc51125908ba5482d172554dc600

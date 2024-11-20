@@ -26,7 +26,7 @@ form {
     margin: 20px auto;
     background: #fff;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 15px;
     box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
@@ -107,7 +107,7 @@ textarea {
 
 button {
     display: block;
-    width: 100%;
+    width: 93.5%;
     padding: 10px;
     background-color: #ffe27f;
     color: white;
@@ -115,16 +115,18 @@ button {
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
+    transition: transform 0.3s;
+    margin: 10px 20px 20px 20px;
 }
 
 button:hover {
     background-color: #45a049;
-    transform: scale(1.02);
+    transform: scale(1.05);
 }
 
 button:active {
     background-color: #3e8e41;
-    transform: scale(1);
+    transform: scale(1.05);
 }
 
 /* Responsive Design */

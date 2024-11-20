@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f4f4f9;
+    background-color: #1E201E;
     color: #333;
 }
 
@@ -15,16 +15,20 @@ body {
 /* Headings */
 h1, h2 {
     text-align: center;
-    color: #4CAF50;
+    color: #FCCD2A;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
 }
 
 /* Upcoming Rides Section */
 #upcoming-rides {
     margin: 20px 0;
-    background: #fff;
+    background: #292A2A;
     padding: 20px;
-    border-radius: 20px;
-    box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.5);
+    font-size: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
 }
 
 #upcoming-rides ul {
@@ -44,16 +48,18 @@ h1, h2 {
 }
 
 #upcoming-rides li:hover {
-    background-color: #f4f4f9;
+    background-color: #FCCD2A;
+    color: #1E201E; 
 }
 
 /* Ride Status Section */
 #ride-status {
     margin: 20px 0;
-    background: #fff;
+    background: #292A2A;
     padding: 20px;
-    border-radius: 20px;
-    box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
 }
 
 #status-bar {
@@ -72,9 +78,10 @@ h1, h2 {
     margin-bottom: 20px;
     padding: 10px;
     border-radius: 5px;
-    background: #f9f9f9;
-    font-size: 14px;
+    background: #1E201E;
+    font-size: 0.95rem;
     line-height: 1.6;
+    color: #ffffff;
 }
 
 #upcoming-trip p {
@@ -90,28 +97,30 @@ h1, h2 {
 
 .status-stage {
     padding: 10px;
-    font-size: 15px;
+    font-size: 1rem;
     border-radius: 5px;
     text-align: center;
-    background-color: #eee;
+    background-color: #444;
     flex: 1;
     transition: background-color 0.3s ease, color 0.3s ease;
+    color: #ffffff;
 }
 
 /* Highlight Active Stage */
 .status-stage.active {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #FCCD2A;
+    color: #1E201E;
     font-weight: bold;
 }
 
 /* Ride History Section */
 #ride-history {
     margin: 20px 0;
-    background: #fff;
+    background: #292A2A;
     padding: 20px;
-    border-radius: 20px;
-    box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
 }
 
 #history-list {
@@ -122,11 +131,16 @@ h1, h2 {
 
 #history-list li {
     padding: 10px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #444;
 }
 
 #history-list li:last-child {
     border-bottom: none;
+}
+
+#history-list li:hover {
+    background-color: #FCCD2A;
+    color: #1E201E;
 }
 
 /* No Rides Message */
@@ -137,7 +151,96 @@ h1, h2 {
     margin: 10px 0;
 }
 
+
 .hidden {
     display: none !important; /* Hide elements completely */
 }
 
+#action-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    position: relative;
+    top: -165px;
+    margin-bottom: -50px;
+    margin-right: 15px;
+}
+
+#action-buttons button {
+    padding: 10px 10px;
+    width: 70px;
+    height: 40px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#edit-btn {
+    background-color: #FCCD2A;
+    color: #1E201E;
+}
+
+#edit-btn:hover {
+    background-color: #f4d03f;
+}
+
+#cancel-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+#cancel-btn:hover {
+    background-color: #e53935;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #dashboard {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    #upcoming-rides, #ride-status, #ride-history {
+        padding: 15px;
+        margin: 10px 0;
+        border-radius: 10px;
+    }
+
+    .status-stage {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    #action-buttons {
+        flex-direction: column;
+        align-items: center;
+        top: 0;
+        margin-bottom: 20px;
+    }
+
+    #action-buttons button {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    h1, h2 {
+        font-size: 1.2rem;
+    }
+
+    #upcoming-rides, #ride-status, #ride-history {
+        padding: 10px;
+    }
+
+    .status-stage {
+        font-size: 0.8rem;
+    }
+
+    #action-buttons {
+        gap: 5px;
+    }
+}

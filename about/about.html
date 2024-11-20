@@ -18,18 +18,23 @@
 
     <!-- About Section -->
     <div class="about-section">
-        <h1 class="heading">ABOUT US</h1>
-        <p class="about-text">
-            Welcome to PawRides — the easiest and most reliable way to get around for Tigers!
-            Whether you’re running errands in town or planning an out-of-town trip, our ride-sharing platform connects
-            students and drivers to make transportation seamless and stress-free.
-            Designed for the DePauw community, we offer a smarter, more affordable way to travel while building
-            connections along the way.
-        </p>
+        <div class="about-content">
+            <h1 class="about-heading">About Us</h1>
+            <p class="about-text">
+                Welcome to PawRides — the easiest and most reliable way to get around for Tigers!
+                Whether you’re running errands in town or planning an out-of-town trip, our ride-sharing platform
+                connects
+                students and drivers to make transportation seamless and stress-free.
+                Designed for the DePauw community, we offer a smarter, more affordable way to travel while building
+                connections along the way.
+            </p>
+        </div>
+
+        <img class="about-image" src="../images/car_image.jpg">
     </div>
 
-    <div class="how-it-works">
-        <h1 class="section-heading">HOW IT WORKS</h1>
+    <div class="how-section">
+        <h1 class="how-heading">How It Works</h1>
         <div class="steps">
             <div class="step-box">
                 <h2>REQUEST A RIDE</h2>
@@ -57,8 +62,8 @@
 
 
     <!-- Why Choose Us Section -->
-    <div class="why-choose-us">
-        <h1 class="why-heading">WHY CHOOSE US</h1>
+    <div class="why-us">
+        <h1 class="why-heading">Why Us</h1>
         <div class="why-content">
             <div class="why-item">
                 <div class="why-heading-box">
@@ -87,19 +92,7 @@
         </div>
     </div>
 
-    <!-- Bootstrap -->
-    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
-        </script>
 
-    <!-- JS for Navbar -->
-    <script>
-        fetch('../navbar/navbar.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('navbar').innerHTML = data;
-            });
-    </script>
 </body>
 
 </html>
