@@ -8,7 +8,8 @@ body {
     color: #ffffff;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: Arial, sans-serif;
     font-weight: bold;
 }
@@ -45,7 +46,7 @@ h1, h2 {
 
 .about-text {
     max-width: 600px;
-    margin: auto; 
+    margin: auto;
     line-height: 1.8;
     font-size: 1rem;
     text-align: left;
@@ -81,7 +82,7 @@ h1, h2 {
 
 /* Step Box */
 .step-box {
-    background-color: #FCCD2A;
+    background-color: #ffe27f;
     color: #1E201E;
     border-radius: 15px;
     width: 180px;
@@ -93,7 +94,7 @@ h1, h2 {
 
 .step-box:hover {
     transform: scale(1.05);
-    background-color: #f4d03f;
+    background-color: #FCCD2A;
 }
 
 /* Heading inside Step Box */
@@ -104,7 +105,8 @@ h1, h2 {
 
 /* Paragraph inside Step Box */
 .step-box p {
-    font-size: 0.9em; /* Adjust font size */
+    font-size: 0.9em;
+    /* Adjust font size */
 }
 
 /* Why Choose Us Section */
@@ -117,7 +119,7 @@ h1, h2 {
 }
 
 .why-heading {
-    background-color: #FCCD2A;
+    background-color: #ffe27f;
     border-radius: 15px;
     padding: 10px 20px;
     display: inline-block;
@@ -132,75 +134,105 @@ h1, h2 {
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    max-width: 800px; /* Full box width*/
-    margin:  auto; /* Center the content */
+    max-width: 800px;
+    /* Full box width*/
+    margin: auto;
+    /* Center the content */
 }
 
 .why-item {
-    display: flex; /* Use flexbox for alignment */
-    align-items: center; /* Center items vertically */
-    gap: 15px; /* Space between heading and content */
+    display: flex;
+    /* Use flexbox for alignment */
+    align-items: center;
+    /* Center items vertically */
+    gap: 15px;
+    /* Space between heading and content */
     background-color: #292A2A;
-    padding: 20px; /* Add padding inside the content box */
+    padding: 20px;
+    /* Add padding inside the content box */
     width: 100%;
-    border-radius: 15px; /* Rounded corners for the box */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow */
+    border-radius: 15px;
+    /* Rounded corners for the box */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    /* Enhanced shadow */
 }
 
 .why-heading-box {
-    background-color: #FCCD2A;
+    background-color: #ffe27f;
     color: #1E201E;
-    padding: 10px 5px; /* Padding for the heading box */
-    border-radius: 15px; /* Rounded edges for the heading box */
-    font-size: 1em; /* Slightly larger font */
-    text-align: center; /* Center the heading text */
-    min-width: 200px; /* Ensure all heading boxes have equal width */
+    padding: 10px 5px;
+    /* Padding for the heading box */
+    border-radius: 15px;
+    /* Rounded edges for the heading box */
+    font-size: 1em;
+    /* Slightly larger font */
+    text-align: center;
+    /* Center the heading text */
+    min-width: 200px;
+    /* Ensure all heading boxes have equal width */
 }
 
 .why-item p {
-    font-size: 0.9em; /* Adjust font size */
+    font-size: 0.9em;
+    /* Adjust font size */
     color: #ffffff;
     margin: 0;
 }
 
 .bottom-button {
-    text-align: center; /* Center the button horizontally */
-    margin: 50px 0; /* Keep some space below */
+    text-align: center;
+    /* Center the button horizontally */
+    margin: 50px 0;
+    /* Keep some space below */
 }
-    
+
 
 .button-link {
     display: inline-block;
-    background-color: #FCCD2A; /* Button background color */
-    color: #1E201E; /* Button text color */
-    padding: 10px 30px; /* Add padding around the text */
-    border-radius: 15px; /* Rounded corners */
-    font-size: 1.2em; /* Adjust font size */
-    font-weight: bold; /* Bold text for emphasis */
-    text-decoration: none; /* Remove underline from the link */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
-    transition: background-color 0.3s, transform 0.3s; /* Add hover effects */
+    background-color: #FCCD2A;
+    /* Button background color */
+    color: #1E201E;
+    /* Button text color */
+    padding: 10px 30px;
+    /* Add padding around the text */
+    border-radius: 15px;
+    /* Rounded corners */
+    font-size: 1.2em;
+    /* Adjust font size */
+    font-weight: bold;
+    /* Bold text for emphasis */
+    text-decoration: none;
+    /* Remove underline from the link */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    /* Add shadow for depth */
+    transition: background-color 0.3s, transform 0.3s;
+    /* Add hover effects */
 }
 
 .button-link:hover {
-    background-color: #f4d03f; /* Slightly darker yellow */
-    transform: scale(1.05); /* Slightly increase size on hover */
+    background-color: #f4d03f;
+    /* Slightly darker yellow */
+    transform: scale(1.05);
+    /* Slightly increase size on hover */
 }
 
 @media (max-width: 768px) {
     .about-section {
-        flex-direction: column; /* Stack items vertically */
+        flex-direction: column;
+        /* Stack items vertically */
         text-align: center;
         gap: 20px;
     }
 
     .about-image {
-        max-width: 90%; /* Full width for smaller screens */
+        max-width: 90%;
+        /* Full width for smaller screens */
     }
 
     .steps {
         flex-direction: column;
-        gap: 20px; /* Adjust gap between step boxes */
+        gap: 20px;
+        /* Adjust gap between step boxes */
     }
 
     .why-item {
@@ -209,8 +241,10 @@ h1, h2 {
     }
 
     .button-link {
-        padding: 12px 30px; /* Adjust button size */
-        font-size: 1.1rem; /* Reduce font size */
+        padding: 12px 30px;
+        /* Adjust button size */
+        font-size: 1.1rem;
+        /* Reduce font size */
     }
 }
 
@@ -220,7 +254,8 @@ h1, h2 {
     }
 
     .about-heading {
-        font-size: 1rem; /* Smaller font size for headings */
+        font-size: 1rem;
+        /* Smaller font size for headings */
     }
 
     .steps {
@@ -228,11 +263,13 @@ h1, h2 {
     }
 
     .step-box {
-        width: 100%; /* Full width for step boxes */
+        width: 100%;
+        /* Full width for step boxes */
     }
 
     .button-link {
-        padding: 10px 20px; /* Smaller button padding */
+        padding: 10px 20px;
+        /* Smaller button padding */
         font-size: 1rem;
     }
 }

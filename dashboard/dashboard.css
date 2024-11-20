@@ -2,6 +2,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
+    margin-top: 60px;
     padding: 20px;
     background-color: #1E201E;
     color: #333;
@@ -13,7 +14,8 @@ body {
 }
 
 /* Headings */
-h1, h2 {
+h1,
+h2 {
     text-align: center;
     color: #FCCD2A;
     font-size: 1.8rem;
@@ -43,13 +45,14 @@ h1, h2 {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
 #upcoming-rides li:last-child {
     border-bottom: none;
 }
 
 #upcoming-rides li:hover {
     background-color: #FCCD2A;
-    color: #1E201E; 
+    color: #1E201E;
 }
 
 /* Ride Status Section */
@@ -153,7 +156,8 @@ h1, h2 {
 
 
 .hidden {
-    display: none !important; /* Hide elements completely */
+    display: none !important;
+    /* Hide elements completely */
 }
 
 #action-buttons {
@@ -203,7 +207,9 @@ h1, h2 {
         padding: 10px;
     }
 
-    #upcoming-rides, #ride-status, #ride-history {
+    #upcoming-rides,
+    #ride-status,
+    #ride-history {
         padding: 15px;
         margin: 10px 0;
         border-radius: 10px;
@@ -228,11 +234,15 @@ h1, h2 {
 }
 
 @media (max-width: 480px) {
-    h1, h2 {
+
+    h1,
+    h2 {
         font-size: 1.2rem;
     }
 
-    #upcoming-rides, #ride-status, #ride-history {
+    #upcoming-rides,
+    #ride-status,
+    #ride-history {
         padding: 10px;
     }
 
