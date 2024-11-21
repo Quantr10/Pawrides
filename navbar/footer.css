@@ -6,12 +6,13 @@
     width: 100%;
     background-color: #ffe27f;
     border-radius: 15px 15px 0px 0px !important;
+    padding: 5px 0;
 }
 
 .footer-content {
-    padding-top: 10px;
+    padding-top: 5px;
     padding-left: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 0;
     display: flex;
     justify-content: space-evenly;
 }
@@ -19,20 +20,27 @@
 .footer-item {
     width: 29%;
     margin-bottom: 5px;
+    padding: 0;
 }
 
 .footer-title {
     font-weight: bolder;
     color: black;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
 }
 
 .footer-text {
     color: black;
     font-style: italic;
     text-align: justify;
-    font-size: 12px;
+    font-size: 18px;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
 }
 
 .footer-input {
@@ -41,24 +49,40 @@
     padding: 4px 6px;
     border-radius: 7px;
     border: 1px solid black;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
 }
 
 .footer-input:hover {
-    border: 1px solid #DDFFBB;
+    border: 1px solid #fccd2a;
     scale: 1.05;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+}
+
+.footer-email {
+    text-align: center;
 }
 
 .send-btn {
-    background-color: #ABC4AA;
+    background-color: #fccd2a;
     color: white;
     font-weight: bold;
     padding: 3px;
-    border: 1px solid #DDFFBB;
+    border: 1px solid #fccd2a;
     border-radius: 7px;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
 }
 
 .send-btn:hover {
     scale: 1.1;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
 }
 
 .plantit-footer {
@@ -125,18 +149,9 @@
 
 .footer-dark .copyright {
     text-align: center;
-    padding-top: 24px;
     opacity: 0.3;
     font-size: 13px;
     margin-bottom: 0;
-}
-
-.plantit-footer-desc {
-    background-color: #32AAAA;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
 }
 
 .copyright {
