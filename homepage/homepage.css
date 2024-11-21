@@ -38,7 +38,7 @@ h6 {
     font-family: "Sour Gummy", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 .text {
@@ -134,7 +134,6 @@ h6 {
     gap: 20px;
     justify-content: center;
     flex-wrap: wrap;
-
 }
 
 .pawrides {
@@ -151,8 +150,6 @@ h6 {
     gap: 20px;
 }
 
-
-
 .image-container .btn {
     padding: 10px 20px;
     font-size: 1rem;
@@ -164,6 +161,9 @@ h6 {
     transition: background-color 0.3s ease, transform 0.3s ease;
     min-width: 120px;
     text-align: center;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
 }
 
 .image-container .btn:hover {

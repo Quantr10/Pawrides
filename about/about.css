@@ -8,12 +8,6 @@ body {
     color: #ffffff;
 }
 
-h1,
-h2 {
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-}
-
 /* About Section */
 .about-section {
     display: flex;
@@ -42,6 +36,10 @@ h2 {
     font-size: 1rem;
     margin-bottom: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 28px;
 }
 
 .about-text {
@@ -50,6 +48,10 @@ h2 {
     line-height: 1.8;
     font-size: 1rem;
     text-align: left;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 18px;
 }
 
 /* How It Works Section */
@@ -71,6 +73,10 @@ h2 {
     margin-bottom: 40px;
     color: #1E201E;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 28px;
 }
 
 .steps {
@@ -119,7 +125,7 @@ h2 {
 }
 
 .why-heading {
-    background-color: #ffe27f;
+    background-color: #FCCD2A;
     border-radius: 15px;
     padding: 10px 20px;
     display: inline-block;
@@ -127,6 +133,10 @@ h2 {
     color: #1E201E;
     margin-bottom: 40px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 28px;
 }
 
 .why-content {
@@ -272,4 +282,18 @@ h2 {
         /* Smaller button padding */
         font-size: 1rem;
     }
+}
+
+.sub-heading {
+    font-family: "Sour Gummy", sans-serif !important;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 20px !important;
+}
+
+.text {
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 18px;
 }
