@@ -22,7 +22,7 @@
 
     <!-- NavBar & Footer -->
     <link rel="stylesheet" href="../navbar/navbar.css">
-    <link rel="stylesheet" href="../navbar/footer.css">
+    <link rel="stylesheet" href="../footer/footer.css">
     <title>PawRides</title>
 </head>
 
@@ -145,7 +145,7 @@
 
     <!-- JS for Navbar -->
     <script>
-        fetch('../navbar/navbar.html')
+        fetch('../navbar/index.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('navbar').innerHTML = data;
@@ -154,7 +154,7 @@
 
     <!-- JS for Footer -->
     <script>
-        fetch('../navbar/footer.html')
+        fetch('../footer/index.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('footer').innerHTML = data;
