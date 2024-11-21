@@ -185,19 +185,31 @@ h2 {
 #edit-btn {
     background-color: #FCCD2A;
     color: #1E201E;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
 }
 
 #edit-btn:hover {
     background-color: #f4d03f;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
 }
 
 #cancel-btn {
     background-color: #f44336;
     color: white;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
 }
 
 #cancel-btn:hover {
     background-color: #e53935;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
 }
 
 /* Responsive Design */
@@ -253,4 +265,10 @@ h2 {
     #action-buttons {
         gap: 5px;
     }
+}
+
+.title {
+    font-family: "Titan One", serif;
+    font-weight: 400;
+    font-style: normal;
 }
