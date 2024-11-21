@@ -1,0 +1,11 @@
+{
+    "routes": [
+      { "src": "/", "dest": "homepage/index.html" },
+      { "src": "/about", "dest": "about/index.html" },
+      { "src": "/dashboard", "dest": "dashboard/index.html" },
+      { "src": "/drive-request", "dest": "drive request/index.html" },
+      { "src": "/login", "dest": "login/index.html" },
+      { "src": "/footer", "dest": "footer/index.html" }
+    ]
+  }
+  
