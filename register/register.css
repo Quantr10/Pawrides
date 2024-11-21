@@ -13,3 +13,74 @@ body {
     width: 100vw;
     height: 100vh;
 }
+
+.text-center {
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+.register-btn {
+    background-color: #fccd2a !important;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+.register-btn:hover {
+    background-color: #fccd2a !important;
+    transform: scale(1.05);
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+.register-btn:active {
+    background-color: #fccd2a !important;
+    transform: scale(0.95);
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+.form-label {
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 20px;
+    color: #1E201E;
+}
+
+#email::placeholder {
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 15px;
+    color: #1E201E;
+}
+
+#password::placeholder {
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 15px;
+    color: #1E201E;
+}
+
+#confirm-password::placeholder {
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 15px;
+    color: #1E201E;
+}
+
+
+/* font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 20px;
+    color: #1E201E; */

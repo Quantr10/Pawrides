@@ -20,17 +20,60 @@ body {
     height: 100vh;
 }
 
-#google-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+.login-btn {
+    background-color: #fccd2a;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
 }
 
-#google-btn img {
-    width: 30px;
-    height: 30px;
-    display: block;
-    object-fit: cover;
-    margin-right: 16px;
+.login-btn:hover {
+    background-color: #fccd2a;
+    transform: scale(1.05);
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+.login-btn:active {
+    background-color: #fccd2a;
+    transform: scale(0.95);
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+.form-label {
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 20px;
+    color: #1E201E;
+}
+
+#email::placeholder {
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 15px;
+    color: #1E201E;
+}
+
+#password::placeholder {
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 15px;
+    color: #1E201E;
+}
+
+#confirm-password::placeholder {
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 15px;
+    color: #1E201E;
 }
