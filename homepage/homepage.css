@@ -238,7 +238,7 @@ h6 {
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 480px) {
     .image-container .buttons {
         top: 60%;
     }
