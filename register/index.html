@@ -24,7 +24,7 @@
     <title>PawRides</title>
 </head>
 
-<body class="bg-success-subtle">
+<body style="background-color:#ffe27f !important;" class="bg-success-subtle">
     <div style="height: 100vh" class="d-flex justify-content-center align-items-center">
         <form id="form" action="" style="width: 400px" class="bg-white px-5 py-3 rounded shadow-lg">
             <h3 class="text-center">Register</h3>
@@ -41,18 +41,13 @@
                 <input type="password" class="form-control" id="confirm-password" />
             </div>
             <p id="message"></p>
-            <button class="btn bg-success w-100 mt-3">Register</button>
+            <button class="btn bg-success w-100 mt-3 register-btn">Register</button>
             <small class="d-block text-center mt-2"> Already have an account? <a href="../login/index.html"
                     class="text-decoration-none">Login</a></span></small>
-            <small class="d-block text-center mt-2"><a href="../homepage/index.html"
-                    class="text-decoration-none">Back
+            <small class="d-block text-center mt-2"><a href="../homepage/index.html" class="text-decoration-none">Back
                     Home</a></span></small>
         </form>
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script type="module" src="../firebase.js"></script>
-    <script type="module" src="./earthday-register.js"></script>
 </body>
 
 </html>
