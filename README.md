@@ -1,5 +1,6 @@
-# PawRides
+# **PawRides**
 
+**Your Destination, Our Mission**  
 A website that connects DePauw students and drivers, offering an easy, reliable, and affordable ride-sharing platform for errands, out-of-town trips, and building community connections.
 
 ---
