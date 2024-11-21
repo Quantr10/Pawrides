@@ -9,34 +9,36 @@
 }
 
 .footer-content {
-    padding-top: 20px;
+    padding-top: 10px;
     padding-left: 30px;
-    padding-bottom: 0;
+    padding-bottom: 10px;
     display: flex;
     justify-content: space-evenly;
 }
 
 .footer-item {
     width: 29%;
-    margin-bottom: 0;
+    margin-bottom: 5px;
 }
 
 .footer-title {
     font-weight: bolder;
     color: black;
     text-align: center;
+    font-size: 18px;
 }
 
 .footer-text {
     color: black;
     font-style: italic;
     text-align: justify;
+    font-size: 12px;
 }
 
 .footer-input {
     color: black;
     margin: 2px auto;
-    padding: 8px;
+    padding: 4px 6px;
     border-radius: 7px;
     border: 1px solid black;
 }
