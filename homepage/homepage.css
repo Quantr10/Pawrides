@@ -53,6 +53,15 @@ h6 {
     font-size: 20px;
 }
 
+
+.founder-img {
+    width: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-left: 100px;
+}
+
 /* Reviews */
 .rev {
     margin-top: 50px;
