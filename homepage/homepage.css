@@ -17,6 +17,11 @@ body {
 }
 
 /* Founders */
+.fou {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
 .founders {
     display: flex;
     justify-content: space-evenly;
@@ -48,7 +53,47 @@ h6 {
     font-size: 20px;
 }
 
+/* Reviews */
+.rev {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.reviews {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.review {
+    background-color: #ffe27f;
+    padding: 10px 20px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.review-big-text {
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 28px;
+    color: #1E201E;
+
+}
+
+.review-text {
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 20px;
+    color: #1E201E;
+}
+
 /* Story */
+.sto {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
 .our-story {
     display: flex;
     justify-content: space-evenly;
@@ -203,4 +248,5 @@ h6 {
     color: #fccd2a;
     text-align: center;
     margin-top: 40px;
+    margin-bottom: 30px;
 }
