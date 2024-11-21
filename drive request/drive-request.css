@@ -4,7 +4,7 @@ body {
     margin: 0;
     margin-top: 80px;
     padding: 0;
-    background-color: #f4f4f9;
+    background-color: #1E201E;
     color: #333;
     line-height: 1.5;
 }
@@ -61,8 +61,8 @@ input[type="date"]:focus,
 input[type="time"]:focus,
 select:focus,
 textarea:focus {
-    border-color: #4CAF50;
-    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+    border-color: #FCCB2A;
+    box-shadow: 0 0 5px ffdb58(76, 175, 80, 0.5);
     outline: none;
 }
 
@@ -109,7 +109,7 @@ button {
     display: block;
     width: 93.5%;
     padding: 10px;
-    background-color: #ffe27f;
+    background-color: #ffdb58;
     color: white;
     border: none;
     border-radius: 4px;
@@ -117,15 +117,19 @@ button {
     font-size: 16px;
     transition: transform 0.3s;
     margin: 10px 20px 20px 20px;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 18px !important;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #FCCB2A;
     transform: scale(1.05);
 }
 
 button:active {
-    background-color: #3e8e41;
+    background-color: #FCCB2A;
     transform: scale(1.05);
 }
 
@@ -138,4 +142,19 @@ button:active {
     .date-time-group {
         gap: 15px;
     }
+}
+
+label {
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 20px !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 15px !important;
 }
