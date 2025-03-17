@@ -21,7 +21,7 @@ h1 {
     margin-top: 20px;
 }
 
-form {
+#drive-request {
     max-width: 600px;
     margin: 20px auto;
     background: #fff;
@@ -39,12 +39,11 @@ label {
     margin-bottom: 5px;
     font-weight: bold;
 }
-
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-input[type="date"],
-input[type="time"],
+#drive-request input[type="text"],
+#drive-request input[type="email"],
+#drive-request input[type="tel"],
+#drive-request input[type="date"],
+#drive-request input[type="time"],
 select,
 textarea {
     width: 100%;
@@ -53,12 +52,11 @@ textarea {
     border-radius: 4px;
     box-sizing: border-box;
 }
-
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="tel"]:focus,
-input[type="date"]:focus,
-input[type="time"]:focus,
+#drive-request input[type="text"]:focus,
+#drive-request input[type="email"]:focus,
+#drive-request input[type="tel"]:focus,
+#drive-request input[type="date"]:focus,
+#drive-request input[type="time"]:focus,
 select:focus,
 textarea:focus {
     border-color: #FCCB2A;
@@ -84,8 +82,7 @@ textarea {
 .radio-item input[type="radio"] {
     margin-right: 5px;
 }
-
-.date-time-group {
+#drive-request .date-time-group {
     display: flex;
     /* Arrange date and time inputs in a row */
     gap: 15px;
@@ -104,8 +101,7 @@ textarea {
     flex: 1;
 }
 
-
-button {
+#drive-request button {
     display: block;
     width: 93.5%;
     padding: 10px;
